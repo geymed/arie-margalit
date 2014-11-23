@@ -1,0 +1,116 @@
+/* generci style */
+ul { margin-top: 1em; margin-bottom: 1em; padding-left: 40px }
+
+
+.msgbody {padding:0;margin:0;}
+img { border: none; }
+
+/* forms */
+.forma { float: left; -moz-border-radius: 5px }
+.field { float: left; width: 98%; }
+.fieldname { float: left; width: 40%; text-align: left; }
+.fieldinput { float: left; width: 60%; vertical-align: middle; text-align: left;}
+.fieldinputwide { float: left; vertical-align: middle}
+.fieldinput input[type=radio] { width:auto; vertical-align:middle; float:none}
+.fieldinput span  { vertical-align:inherit }
+.fieldinputwide span  { vertical-align:inherit }
+
+
+/* multi-level-horizontal menu structure */
+.mlhmenu { }
+ul.mlhmenu { list-style:none;display: table; margin: 0; padding: 0}
+ul.mlhmenu li{ position:relative; cursor: pointer;display: table-cell; }
+ul.mlhmenu li div {width: 100%;height: 100%;display: table-cell;}
+ul.mlhmenu li a { display: block;}
+ul.mlhmenu li ul{display:none;list-style: none;-webkit-padding-start: 0px;z-index:500;position: absolute;}
+ul.mlhmenu li ul li{float:none;  cursor: pointer;display: block;}
+ul.mlhmenu li ul li a { text-decoration:none; }
+/*ul.mlhmenu li ul li a:hover{} */
+ul.mlhmenu li:hover > ul{ display:block;}
+
+/* multi-level-vertical menu structure */
+ul.mlvmenu { margin: 0; padding: 0; position: relative; list-style: none;width: 100%;z-index: 1; }
+ul.mlvmenu li { position: relative; width: 100%; clear: both; padding: 0px; margin: 0px}
+ul.mlvmenu li ul { position: absolute;top: 0;display: block;z-index: 5000; padding: 0px; margin: 0px}
+ul.mlvmenu .li_hover ul {display: block;}
+ul.mlvmenu .li_hover>ul {visibility:visible;}
+ul.mlvmenu ul { visibility:hidden; list-style: none; }
+
+/* Make-up syles */
+ul.mlvmenu, li {}
+
+/* Styles for Menu Items */
+ul.mlvmenu a { display: block;text-decoration: none; }
+
+/* Hover Styles */
+ul.mlvmenu a:hover {}
+
+/* Sub Menu Styles */
+ul.mlvmenu li ul a {}
+
+/* Sub Menu Hover Styles */
+ul.mlvmenu li ul a:hover {}
+
+
+/* accordion multi level menu */
+ul.accord { list-style-type: none; list-style-position: outside; padding:0px; margin:0px}
+ul.accord li { display: block; clear: both; padding:0px; margin: 0px}
+ul.accord li ul { list-style-type: none; list-style-position: outside; display: none; padding:0px; margin: 0px}
+
+/* SEO */
+div.seo_hidden { display: none; }
+
+/* lightbox gallery */
+.lb-data .lb-details { text-align: left;}
+
+
+/* get directions */
+.userinput .addrdirectionsline { display: none;}
+.userinput .mapholder { visibility: hidden;}
+.getdirdlg { width: 840px;position:fixed; top:200px;background-color: #eee;border: 1px solid black;padding: 20px;border-radius: 5px;overflow: hidden;}
+.getdirdlg .msgwait { left: 0;}
+.addrblock { width: 400px;float: left;margin-right: 10px;border: 2px solid #525252;}
+.mapholder { position: relative;width: 400px;height: 470px;}
+.addrline { margin-bottom: 10px;}
+.addrbtnline .inputmarker { visibility: hidden;}
+.divinput { line-height: 30px;}
+.divinput input { line-height: 30px;height: 30px;text-indent: 5px; width: 90%}
+.inputmarker { font-size: 30px;text-indent: 4px;font-family: Arial;margin-right: 5px;}
+.inputmarker.source { color: #390;}
+.inputmarker.destination { color: #e91c24;}
+.addrsubmit { background-color: #525252;padding: 5px 10px;border: 2px solid #aaa;display: inline-block;cursor: pointer;color: #aaa;border-radius: 5px;}
+.addrsubmit:hover { background-color: #aaa;border-color: #525252;color: #525252;}
+.inputsline { padding: 10px; background-color: #ccc}
+.addrdirectionsline {margin-top: 12px}
+.addrdirections { padding: 10px;background-color: #ccc;height: 290px;overflow-y: auto;}
+.addrdirections li { font: 12px Tahoma, Arial, sans-serif;}
+.userinput.getdirdlg { width: 402px;height: 148px;}
+
+
+/* forums */
+.msg_forum { text-align: left; }
+.msg_forum_thread { width: 100%; }
+.msg_forum_spacer { float: left; }
+.msg_forum_msg { position: relative; }
+.msg_forum_msg_icon { float: left; padding-top: 6px; }
+.msg_forum_msg_txt { overflow: hidden; }
+.msg_forum_msg_title { cursor: pointer; }
+.msg_forum_msg_body { display: none; }
+.msg_forum_action {	cursor: pointer; display: table-cell;}
+.msg_forum_action_container { display:table; }
+.msg_forum_form { display: none; }
+.msg_forum_form_cover {	display: none; }
+.msg_comment_form_row { margin-bottom: 10px }
+.msg_comment_form_label { display: inline-block; width: 50px; vertical-align: top; }
+.msg_comment_form_input { display: inline-block; }
+.msg_comment_form_input input, .msg_comment_form_input textarea { max-width: 250px; }
+.msg_forum_form_cover_message {	display: none; }
+.msg_forum_sub_msg_icon { background-image: url('forum_arrow_left.png');background-repeat: no-repeat;background-position:right;margin-right:5px;}
+#design .msg_forum_sub_msg_icon { background-image: url('forum_arrow_left0.png');}
+.msg_forum_thread_bullet { background-image: url('forum_bullet.png');background-repeat: no-repeat;background-position:right;margin-right:5px;}
+#design .msg_forum_thread_bullet { background-image: url('forum_bullet0.png');}
+
+.msg_forum_msg_info_bar_part { padding-right: 10px;}
+.msg_forum_sub_msg_icon { padding-top: 6px }
+
+.ThumbnailsPanel { width: 80px;}

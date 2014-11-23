@@ -1,0 +1,11 @@
+.clCMAbs {direction:rtl;left:0px;visibility:hidden;position:absolute;top:0px;}
+.clBar {direction:rtl;visibility:hidden;width:10px;position:absolute;height:10px;background-color:navy;}
+.clLevel0 {direction:rtl;padding-right:2px;padding-left:2px;padding-bottom:2px;padding-top:2px;position:absolute;background-color:#3b78b0;}
+.clLevel0border {color:#09251d;direction:rtl;visibility:hidden;position:absolute;}
+.clLevel0over {direction:rtl;padding-right:2px;padding-left:2px;padding-bottom:2px;padding-top:2px;position:absolute;cursor:pointer;outline:0;}
+.clLevel1 {direction:rtl;padding-right:13px;padding-left:2px;font-weight:bold;font-size:12px;color;position:absolute;text-align:right;text-decoration:none;padding-top:2px;background-color:#787777;}
+.clLevel1over {direction:rtl;position:absolute;padding-right:13px;padding-left:2px;font-weight:bold;font-size:12px;cursor:pointer;color:#ffffff;font-family:Arial, Helvetica, sans-serif;background-color:#a3a3a3;text-align:right;padding-top:2px;}
+.clLevel1border {visibility:hidden;color:#ffffff;position:absolute;background-color:#ffffff;}
+.clLevel2 {direction:rtl;padding-right:13px;padding-left:2px;font-weight:bold;font-size:12px;color:#ffffff;font-family:Arial, Helvetica, sans-serif;position:absolute;text-align:right;text-decoration:none;padding-top:2px;background-color:#787777;}
+.clLevel2over {direction:rtl;position:absolute;padding-right:13px;padding-left:2px;font-weight:bold;font-size:12px;cursor:pointer;outline:0;color:#ffffff;font-family:Arial, Helvetica, sans-serif;background-color:#a3a3a3;text-align:right;padding-top:2px;}
+.clLevel2border {visibility:hidden;color:#ffffff;position:absolute;background-color:#ffffff;}

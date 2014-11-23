@@ -1,0 +1,32 @@
+/* generic styles */
+/******************/
+ul { margin-top: 1em; margin-bottom: 1em;padding-right: 40px; padding-left: 0px }
+
+.msgbody { text-align: right; }
+
+.msgwebcontainer[direction=rtl] ul, .msgwebcontainer ol { margin: 0px 16px 0px 0px; }
+
+/* form - rtl support */
+.msgwebcontainer[direction=rtl] .field { float: right; }
+.msgwebcontainer[direction=rtl] .fieldname { float: right; text-align: right; }
+.msgwebcontainer[direction=rtl] .fieldinput { float: right; text-align: right}
+div[direction=rtl] .fieldname { float: right; }
+div[direction=rtl] .fieldinput { float: right; }
+div[direction=ltr] .fieldname { float: left; }
+div[direction=ltr] .fieldinput { float: left; }
+
+
+
+/* lightbox gallery */
+.lb-data .lb-details { text-align: right;}
+	
+	
+
+/* forums */
+.msg_forum { text-align: right; }
+.msg_forum_spacer { float: right; }
+.msg_forum_msg_icon { float: right; }
+.msg_forum_sub_msg_icon { background-image: url('forum_arrow_right.png');background-position:left;}
+#design .msg_forum_sub_msg_icon { background-image: url('forum_arrow_right0.png');}
+.msg_forum_msg_info_bar_part { padding-left: 10px;}
+
